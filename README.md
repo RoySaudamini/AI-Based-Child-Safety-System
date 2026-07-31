@@ -11,6 +11,10 @@
 
 <br/>
 
+![AI-Based Child Safety System](AI-Based%20Child%20Safety%20System.png)
+
+<br/>
+
 An intelligent attendance and safety system that combines **RFID authorization**, **AI-powered facial recognition**, and **guardian verification** to ensure children's safety during check-in and check-out procedures. It keeps parents updated in real-time via WhatsApp and syncs logs securely to Google Sheets.
 
 </div>
