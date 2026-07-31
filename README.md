@@ -97,11 +97,7 @@ graph TD
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
-
-> Copyright (c) 2026 Somesh Kumar Sahoo
-> 
-> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files... *(See the [LICENSE](LICENSE) file for the full text.)*
+This project is licensed under the terms specified in the [LICENSE](LICENSE) file.
 
 <br/>
 
