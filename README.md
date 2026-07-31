@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="AI-Based%20Child%20Safety%20System.png" alt="AI-Based Child Safety System Icon" width="120" />
+
 # 🛡️ AI-Based Child Safety System
 
 > **Intelligent RFID & Facial Recognition for Child Safety**
@@ -8,10 +10,6 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-Compatible-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-
-<br/>
-
-![AI-Based Child Safety System](AI-Based%20Child%20Safety%20System.png)
 
 <br/>
 
