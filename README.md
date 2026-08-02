@@ -19,6 +19,41 @@ An intelligent attendance and safety system that combines **RFID authorization**
 
 <hr/>
 
+## 📖 Detailed Project Overview
+
+The **AI-Based Child Safety System** is a comprehensive solution designed to automate and secure the drop-off (check-in) and pick-up (check-out) processes for children at schools, daycare centers, or camps. By integrating hardware and AI-driven software components, the system creates a robust safety net that ensures only authorized individuals can drop off or pick up a child. 
+
+### ✨ Core Features & Workflow
+
+1. **🔒 Two-Factor Authentication (RFID + AI Facial Recognition)**
+   - The process is initiated by a hardware trigger: scanning an authorized **RFID card** on an Arduino-connected reader.
+   - Once a valid card is detected, the system activates the camera to perform high-accuracy **Facial Recognition** using OpenCV and dlib. It verifies the identity of the student and, during check-out, can also verify the authorized guardian.
+
+2. **📥 Intelligent Check-in Mode**
+   - The child's face is scanned upon arrival.
+   - The system matches the face against a secure local database of enrolled students.
+   - Upon successful recognition, the child is granted access, and attendance is marked instantly.
+
+3. **📤 Secure Check-out Mode**
+   - This mode is designed to verify both the student and the authorized guardian picking them up.
+   - It ensures that a child cannot leave the premises with an unrecognized or unauthorized person, significantly mitigating the risk of unsafe handoffs.
+
+4. **☁️ Automated Cloud Logging (Google Sheets)**
+   - All check-in and check-out events are logged in real-time directly to **Google Sheets**.
+   - This provides administrators with a live, centralized, and secure digital attendance register, eliminating manual paperwork.
+
+5. **💬 Real-Time WhatsApp Notifications**
+   - The moment a child successfully checks in or checks out, an automated WhatsApp message is instantly dispatched to the parents' registered mobile numbers using `pywhatkit`.
+   - This provides parents with immediate peace of mind, knowing the exact status and location of their child.
+
+6. **📟 Interactive Hardware Feedback**
+   - The software communicates continuously with the Arduino to provide real-time status updates (e.g., "Check-in Active", "Access Granted", "Unauthorized Card") on a connected LCD screen, guiding the user through the process.
+
+7. **🛡️ Data Security & Privacy**
+   - Sensitive configurations, API keys, Google Cloud service account credentials, and RFID IDs are strictly isolated using environment variables (`.env`), ensuring no sensitive data is ever hardcoded or exposed in the repository.
+
+<hr/>
+
 ## 🚀 Quick Setup
 
 ### 1️⃣ Clone & Install Requirements
